@@ -1,0 +1,40 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status , #number_of_objects
+{
+font-size: 18px;
+}
+
+canvas
+{
+box-shadow: 5px 5px 5px lightgrey;
+border-radius: 10px;
+margin-top: 260px;
+}
+
+
+
+
+
+.gradient-background {
+    background: linear-gradient(226deg,blue,#ff0000,#d600ff,#7700ff,#0080ff);
+    background-size: 300% 500%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
